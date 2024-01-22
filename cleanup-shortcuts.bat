@@ -8,7 +8,7 @@ Call :Del "C:\Users\Public\Desktop\Zoom.lnk"
 Call :Del "C:\Users\Public\Desktop\Visual Studio Code.lnk"
 Call :Del "C:\Users\Public\Desktop\Nextcloud.lnk"
 Call :Del "C:\Users\Public\Desktop\Google Chrome.lnk"
-Call :Del "C:\Users\Public\Desktop\LibreOffice 7.5.lnk"
+Call :Del "C:\Users\Public\Desktop\LibreOffice *.lnk"
 
 Call :Del "%Desktop%\qFlipper.lnk"
 
