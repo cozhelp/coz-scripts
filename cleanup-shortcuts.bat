@@ -12,6 +12,7 @@ Call :Del "C:\Users\Public\Desktop\LibreOffice *.lnk"
 Call :Del "C:\Users\Public\Desktop\RingCentral.lnk"
 
 Call :Del "%Desktop%\qFlipper.lnk"
+Call :Del "%Desktop%\signal.lnk"
 
 
 
