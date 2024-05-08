@@ -10,6 +10,9 @@ Call :Del "C:\Users\Public\Desktop\Nextcloud.lnk"
 Call :Del "C:\Users\Public\Desktop\Google Chrome.lnk"
 Call :Del "C:\Users\Public\Desktop\LibreOffice *.lnk"
 Call :Del "C:\Users\Public\Desktop\RingCentral.lnk"
+Call :Del "C:\Users\Public\Desktop\Dell Display Manager*.lnk"
+Call :Del "C:\Users\Public\Desktop\pCloud Drive.lnk"
+
 
 Call :Del "%Desktop%\qFlipper.lnk"
 Call :Del "%Desktop%\signal.lnk"
