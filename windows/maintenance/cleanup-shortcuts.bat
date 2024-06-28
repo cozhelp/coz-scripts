@@ -14,8 +14,8 @@ Call :Del "C:\Users\Public\Desktop\RingCentral.lnk"
 Call :Del "C:\Users\Public\Desktop\Dell Display Manager*.lnk"
 Call :Del "C:\Users\Public\Desktop\pCloud Drive.lnk"
 Call :Del "C:\Users\Public\Desktop\Mumble.lnk"
-Call :Del "%UserProfile%\Desktop\Discord.lnk"
-Call :Del "%UserProfile%\Desktop\RingCentral.lnk"
+Call :Del "%Desktop%\Discord.lnk"
+Call :Del "%Desktop%\RingCentral.lnk"
 
 
 Call :Del "%Desktop%\qFlipper.lnk"
