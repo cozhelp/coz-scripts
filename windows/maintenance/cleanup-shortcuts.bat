@@ -1,4 +1,4 @@
-@Echo Off
+@Echo On
 Call :Start
 
 Call :Del "C:\Users\Public\Desktop\Cisco Webex Meetings.lnk"
