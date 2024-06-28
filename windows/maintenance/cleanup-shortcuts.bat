@@ -26,6 +26,8 @@ Call :Del "%Desktop%\signal.lnk"
 :Start
 REM Grab the path for the desktop from the registry
 for /f "tokens=2*" %%a in ('REG QUERY "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" /v "Desktop"') do set "Desktop=%%~b"
+Set Desktop=%UserProfile%\Desktop
+If Exist "%OneDrive%\Desktop" Set Desktop=%OneDrive%\Desktop
 GoTo :EOF
 
 :Del
