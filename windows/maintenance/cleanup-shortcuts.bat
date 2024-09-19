@@ -17,6 +17,7 @@ Call :Del "C:\Users\Public\Desktop\Mumble.lnk"
 Call :Del "C:\Users\Public\Desktop\Slack.lnk"
 Call :Del "%Desktop%\Discord.lnk"
 Call :Del "%Desktop%\RingCentral.lnk"
+Call :Del "%Desktop%\Vonage Business.lnk"
 
 
 Call :Del "%Desktop%\qFlipper.lnk"
