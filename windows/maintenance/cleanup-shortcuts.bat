@@ -18,6 +18,8 @@ Call :Del "C:\Users\Public\Desktop\Slack.lnk"
 Call :Del "%Desktop%\Discord.lnk"
 Call :Del "%Desktop%\RingCentral.lnk"
 Call :Del "%Desktop%\Vonage Business.lnk"
+Call :Del "%Desktop%\Brave.lnk"
+Call :Del "%Desktop%\Spotify.lnk"
 
 
 Call :Del "%Desktop%\qFlipper.lnk"
