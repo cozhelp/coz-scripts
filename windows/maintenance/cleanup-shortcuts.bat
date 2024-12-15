@@ -19,9 +19,10 @@ Call :Del "Slack.lnk"
 Call :Del "Signal.lnk"
 Call :Del "Spotify.lnk"
 Call :Del "Visual Studio Code.lnk"
+Call :Del "Vonage Business.lnk"
+Call :Del "Winaero Tweaker.lnk"
 Call :Del "Zoom.lnk"
 Call :Del "Zoom Workplace.lnk"
-Call :Del "Vonage Business.lnk"
 
 GoTo :EOF
 
