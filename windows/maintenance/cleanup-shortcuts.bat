@@ -41,7 +41,7 @@ Set FileToDelete=%1
 Set FileToDelete=%FileToDelete:"=%
 Echo Checking for %FileToDelete%
 If Exist "%Desktop%\%FileToDelete%" Echo Deleting "%Desktop%\%FileToDelete%"
-If Exist "%Desktop%\%FileToDelete%" Del "%Desktop%\%FileToDelete%"
+If Exist "%Desktop%\%FileToDelete%" Del /f "%Desktop%\%FileToDelete%"
 If Exist "C:\Users\Public\Desktop\%FileToDelete%" Echo Deleting "C:\Users\Public\Desktop\%FileToDelete%"
-If Exist "C:\Users\Public\Desktop\%FileToDelete%" Del "C:\Users\Public\Desktop\%FileToDelete%"
+If Exist "C:\Users\Public\Desktop\%FileToDelete%" Del /f "C:\Users\Public\Desktop\%FileToDelete%"
 GoTo :EOF
