@@ -42,7 +42,7 @@ Set FileToDelete=%1
 Set FileToDelete=%FileToDelete:"=%
 Set ExistsPersonal=0
 Set ExistsPublic=0
-Echo Checking for %FileToDelete%
+REM Echo Checking for %FileToDelete%
 If Exist "%Desktop%\%FileToDelete%" Set ExistsPersonal=1
 If Exist "C:\Users\Public\Desktop\%FileToDelete%" Set ExistsPublic=1
 If /i "%ExistsPersonal%" EQU "0" GoTo :EOF
