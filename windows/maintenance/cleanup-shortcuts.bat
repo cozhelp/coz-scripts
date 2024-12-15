@@ -10,7 +10,7 @@ Call :Del "Google Chrome.lnk"
 Call :Del "Firefox.lnk"
 Call :Del "LibreOffice *.lnk"
 Call :Del "Nextcloud.lnk"
-Call :Del "Microsoft Edge*.lnk"
+Call :Del "Microsoft Edge&*.lnk"
 Call :Del "Mumble.lnk"
 Call :Del "Oracle VM VirtualBox.lnk"
 Call :Del "pCloud Drive.lnk"
@@ -32,10 +32,10 @@ GoTo :EOF
 
 :Start
 REM Grab the path for the desktop from the registry
-for /f "tokens=2*" %%a in ('REG QUERY "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" /v "Desktop"') do set "Desktop=%%~b"
+REM for /f "tokens=2*" %%a in ('REG QUERY "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" /v "Desktop"') do set "Desktop=%%~b"
 REM echo Desktop: %Desktop%
-REM Set Desktop=%UserProfile%\Desktop
-REM If Exist "%OneDrive%\Desktop" Set Desktop=%OneDrive%\Desktop
+Set Desktop=%UserProfile%\Desktop
+If Exist "%OneDrive%\Desktop" Set Desktop=%OneDrive%\Desktop
 GoTo :EOF
 
 
