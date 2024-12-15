@@ -5,6 +5,7 @@ Call :Del "Brave.lnk"
 Call :Del "Cisco Webex Meetings.lnk"
 Call :Del "Dell Display Manager*.lnk"
 Call :Del "Discord.lnk"
+Call :Del "Epic Games Launcher.lnk"
 Call :Del "Google Chrome.lnk"
 Call :Del "Firefox.lnk"
 Call :Del "LibreOffice *.lnk"
@@ -18,11 +19,13 @@ Call :Del "RingCentral.lnk"
 Call :Del "Slack.lnk"
 Call :Del "Signal.lnk"
 Call :Del "Spotify.lnk"
+Call :Del "Steam.lnk"
 Call :Del "Visual Studio Code.lnk"
 Call :Del "Vonage Business.lnk"
 Call :Del "Winaero Tweaker.lnk"
 Call :Del "Zoom.lnk"
 Call :Del "Zoom Workplace.lnk"
+
 
 GoTo :EOF
 
