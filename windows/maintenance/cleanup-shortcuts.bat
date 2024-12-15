@@ -31,8 +31,8 @@ GoTo :EOF
 REM Grab the path for the desktop from the registry
 for /f "tokens=2*" %%a in ('REG QUERY "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" /v "Desktop"') do set "Desktop=%%~b"
 REM echo Desktop: %Desktop%
-Set Desktop=%UserProfile%\Desktop
-If Exist "%OneDrive%\Desktop" Set Desktop=%OneDrive%\Desktop
+REM Set Desktop=%UserProfile%\Desktop
+REM If Exist "%OneDrive%\Desktop" Set Desktop=%OneDrive%\Desktop
 GoTo :EOF
 
 
