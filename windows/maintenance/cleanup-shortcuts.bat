@@ -40,8 +40,6 @@ GoTo :EOF
 :Del
 Set FileToDelete=%1
 Set FileToDelete=%FileToDelete:"=%
-Set ExistsPersonal=0
-Set ExistsPublic=0
 REM Echo Checking for %FileToDelete%
 If Exist "%Desktop%\%FileToDelete%" Echo Deleting "%Desktop%\%FileToDelete%"
 If Exist "%Desktop%\%FileToDelete%" Del "%Desktop%\%FileToDelete%"
