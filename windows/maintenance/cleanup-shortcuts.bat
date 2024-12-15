@@ -38,6 +38,7 @@ GoTo :EOF
 
 :Del
 Set FileToDelete=%1
+Set FileToDelete=%FileToDelete:"=%
 Set Exists=0
 If Exist "%Desktop%\%FileToDelete%" Set Exists=1
 If Exist "C:\Users\Public\Desktop\%FileToDelete%" Set Exists=2
