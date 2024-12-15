@@ -45,7 +45,8 @@ REM Echo Checking for %FileToDelete%
 If Exist "%Desktop%\%FileToDelete%" Set Exists=1
 If Exist "C:\Users\Public\Desktop\%FileToDelete%" Set Exists=2
 If /i "%Exists%" EQU "0" GoTo :EOF
-Echo Deleting %FileToDelete%
+If /i "%Exists%" EQU "1" Echo Deleting "%Desktop%\%FileToDelete%"
+If /i "%Exists%" EQU "2" Echo Deleting "C:\Users\Public\Desktop\%FileToDelete%"
 If /i "%Exists%" EQU "1" Del "%Desktop%\%FileToDelete%"
 If /i "%Exists%" EQU "2" Del "C:\Users\Public\Desktop\%FileToDelete%"
 GoTo :EOF
