@@ -1,4 +1,4 @@
-@Echo On
+@Echo Off
 Call :Start
 
 Call :Del "Brave.lnk"
