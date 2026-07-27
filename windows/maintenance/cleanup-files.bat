@@ -1,3 +1,4 @@
+@Echo off
 :Cleanup_Files
 Echo Cleanup and remove old unused files started
 FORFILES /P "%WinDir%\Logs" /S /D -30 /C "cmd /c IF @isdir == FALSE del /f /q @path">NUL
